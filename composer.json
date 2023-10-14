@@ -1,0 +1,29 @@
+{
+    "name": "smg/third-api",
+    "description": "SMG third-api Package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "zzm",
+            "email": "316346092@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SMG\\ThirdApi\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SMG\\ThirdApi\\ThirdApiServiceProvider"
+            ]
+        }
+    }
+}
