@@ -2,6 +2,7 @@
     "name": "zzm/third-api",
     "description": "快速调用第三方Api",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "zzm",
