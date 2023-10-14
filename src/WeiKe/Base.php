@@ -6,9 +6,7 @@
  * @copyright
  */
 
-namespace SMG\ThirdApi\WeiKe;
-
-use SMG\ThirdApi\WeiKe\Rest\Power;
+namespace ZZM\ThirdApi\WeiKe;
 
 class Base
 {

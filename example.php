@@ -1,7 +1,7 @@
 <?php
 require 'vendor/autoload.php';
 
-$Power = new \SMG\ThirdApi\WeiKe\Rest\Power();
+$Power = new \ZZM\ThirdApi\WeiKe\Rest\Power();
 $params = [
     'cardId' => 1,
     'store_id' => 1,

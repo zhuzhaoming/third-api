@@ -1,6 +1,6 @@
 {
     "name": "zzm/third-api",
-    "description": "SMG third-api Package",
+    "description": "快速调用第三方Api",
     "type": "library",
     "authors": [
         {
@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "SMG\\ThirdApi\\": "src/"
+            "ZZM\\ThirdApi\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SMG\\ThirdApi\\ThirdApiServiceProvider"
+                "ZZM\\ThirdApi\\ThirdApiServiceProvider"
             ]
         }
     }

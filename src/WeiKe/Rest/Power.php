@@ -6,10 +6,10 @@
  * @copyright
  */
 
-namespace SMG\ThirdApi\WeiKe\Rest;
+namespace ZZM\ThirdApi\WeiKe\Rest;
 
 use GuzzleHttp\Client;
-use SMG\ThirdApi\WeiKe\Base;
+use ZZM\ThirdApi\WeiKe\Base;
 
 class Power extends Base
 {
